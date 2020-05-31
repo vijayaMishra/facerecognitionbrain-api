@@ -1,9 +1,10 @@
 {
-  "name": "Node",
+  "name": "SmartBrainAPI",
   "version": "1.0.0",
   "main": "script1.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "node server.js",
+    "start:dev": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
@@ -15,9 +16,5 @@
     "express": "^4.17.1",
     "knex": "^0.21.1",
     "pg": "^8.2.1"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.4"
-  },
-  "description": ""
+  }
 }
